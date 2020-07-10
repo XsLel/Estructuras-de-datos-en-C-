@@ -1,0 +1,22 @@
+algoritmo media
+inicio
+	variables
+			entero: numero, contador, suma;
+			real: respuesta;
+	c <- 0;
+	s <- 0;
+	repetir
+		leer(numero);
+		si numero <> 0 entonces
+			suma <- suma + numero;
+			contador <- contador + 1;
+		fin si
+	hasta numero = 0;
+	si contador > 0 entonces
+		respuesta <- suma / contador;
+		escribe("La respuesta es: " + respuesta);
+	sino
+		escribe("no datos");
+	fin si
+fin
+	
