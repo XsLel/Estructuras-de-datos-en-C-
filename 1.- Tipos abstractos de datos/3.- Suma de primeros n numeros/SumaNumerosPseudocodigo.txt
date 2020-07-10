@@ -1,0 +1,16 @@
+algoritmo suma_n_naturales
+inicio
+	variables
+	entero: suma, contador, n;
+	repetir
+		leer(n)
+	hasta n > 0
+	
+	contador <- 0;
+	suma <- 0;
+	mientras contador < n hacer
+		contador <- contador + 1;
+		suma <- suma + contador;
+	fin mientras
+	escribir(suma)
+fin
