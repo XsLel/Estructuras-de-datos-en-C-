@@ -4,6 +4,7 @@ inicio
 	variables
 		entero: numero, contador;
 		logico: primo;
+	escribir('Escribe un numero por favor');
 	leer(numero);
 	contador <- 2;
 	primo <- verdadero;

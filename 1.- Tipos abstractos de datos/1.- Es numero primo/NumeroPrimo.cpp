@@ -9,6 +9,7 @@ using namespace std;
 int main(){
 	int numero,contador;
 	bool primo;
+	cout << "Escribe un numero por favor\n";//salida de consola
 	cin >> numero;
 	contador=2;
 	primo = true;
