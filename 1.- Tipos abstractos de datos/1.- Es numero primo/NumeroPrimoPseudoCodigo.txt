@@ -1,0 +1,23 @@
+//Pseudocodigo NumerosPrimos
+algoritmo primo
+inicio
+	variables
+		entero: numero, contador;
+		logico: primo;
+	leer(numero);
+	contador <- 2;
+	primo <- verdadero;
+	mientras primo y (contador < numero) hacer
+		si numero mod contador <> 0 entonces
+			contador <- contador + 1;
+		sino
+			primo <- falso
+		fin si
+	fin mientras
+	
+	si (primo) entonces
+		escribe("El " + numero + " es primo");
+	sino
+		escribe("El " + numero + " NO es primo");
+	fin si
+fin
